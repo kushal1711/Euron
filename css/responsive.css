@@ -1,0 +1,467 @@
+@media only screen and (max-width: 1860px) {}
+@media only screen and (max-width: 1680px) {}
+@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1366px) {
+    .gallrylist-section {padding: 40px 0 60px 0;}
+    .gallerlist-row {margin-top: 60px;}
+    .gallerlist-row .item:nth-child(even) {margin-top: -60px;}
+    .hmadvantage-section {padding: 60px 0;}
+
+
+
+    .hmdentist-section {padding: 60px 0;}
+    .homedentistlist .owl-item.active + .owl-item.active .item {margin-top: 60px;}
+    .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 30px;}
+
+
+    .hmgallery-section {padding: 60px 0;}
+
+
+    .hmpartner-section {padding: 60px 0;}
+
+
+
+    .footform-section {padding: 60px 0;}
+    .footform-box {padding: 60px 20px;}
+    .footform-box + .foothours-section {margin-top: 60px;}
+    .foothour-list li {font-size: 16px;}
+    .foottime {margin-left: -100px;padding-left: 102px;}
+    .footinfo-box i {font-size: 20px;width: 42px;height: 42px;line-height: 42px;}
+    .footinfo-text {width: calc(100% - 42px);}
+    .footinfo-text {padding-left: 10px;}
+    .footmenu-col {padding-top: 60px;padding-bottom: 60px;}
+    .footer-inner .container {padding-left: calc((100% - 1116px) / 2);}
+    .socialmedia li a {font-size: 20px;width: 42px;height: 42px;line-height: 42px;}
+}
+@media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1199px) {
+    .hmservice-section {padding: 40px 0;}
+    .homeservices .owl-item:nth-child(1) .item {margin-top: 80px;}
+    .homeservices .owl-item:nth-child(3) .item {margin-top: 40px;}
+    .homeservices .owl-item:nth-child(4) .item {margin-top: -40px;}
+    .hmservice-box {padding: 20px;}
+    .hmservice-box h3 {font-size: 20px;}
+
+
+    .hmdentist-section {padding: 40px 0;}
+    .dentist-profile {font-size: 16px;}
+    .homedentistlist .owl-item.active + .owl-item.active .item {margin-top: 40px;}
+    .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 20px;}
+
+
+    .hmgallery-section {padding: 40px 0;}
+
+    .hmpartner-section {padding: 40px 0;}
+
+
+    .footform-section {padding: 40px 0;}
+  .footform-box {padding: 40px 20px;}
+  .footform-box + .foothours-section {margin-top: 40px;}
+  .foothour-list li {width: 33.33%;}
+  .foothour-list li:nth-child(1) {order: 1;}
+  .foothour-list li:nth-child(2) {order: 4;}
+  .foothour-list li:nth-child(3) {order: 2;}
+  .foothour-list li:nth-child(4) {order: 5;}
+  .foothour-list li:nth-child(5) {order: 3;}
+  .foothour-list li:nth-child(6) {order: 6;}
+  .foothour-list li:nth-child(7) {order: 7;}
+  .footinfo-text {font-size: 16px;}
+  .footcontact-bar {padding: 30px 0;}
+  .footmenu-col {padding-top: 40px;padding-bottom: 40px;}
+  .footer-inner .container {padding-left: calc((100% - 936px) / 2);}
+  .footer-menu h4 {font-size: 20px;}
+  .footer-menu ul li {font-size: 15px;}
+  .footcopyright {padding: 20px 0;}
+}
+@media only screen and (max-width: 1169px) {}
+@media only screen and (max-width: 1023px) {}
+@media only screen and (min-width: 992px) {
+    /* Header css */
+    .fixed #logo{
+        top: -10px;
+    }
+    .fixed #header{
+        position: fixed;
+        top: 0px;
+        -webkit-animation: fadeInDown 1s both;
+        animation: fadeInDown 1s both;
+    }
+    @keyframes fadeInDown {
+        0% { 
+            opacity: 0;
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    }
+    #logo{
+        left: 50%;
+        transform: translateX(-50%);
+        top: -35px;
+    }
+    .euronnav {
+        display: block !important;
+    }
+    #euronNav #euronnav2 li.full-euronmenu>ul {
+        left: auto;
+        right: 0;
+    }
+    #euronNav li.full-euronmenu>.sub-euron-menu>li {
+        width: 33.33%;
+        padding: 0 5px;
+    }
+    #euronNav li.full-euronmenu .sub-euron-menu .sub-euron-menu {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+        z-index: 12;
+        overflow: inherit;
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        width: 100%;
+    }
+    #euronNav li.full-euronmenu>ul {
+        padding: 15px 10px;
+    }
+    #euronNav li.full-euronmenu ul li a {
+        padding: 6px 0;
+        background-color: inherit;
+    }
+    #euronNav li.full-euronmenu ul li:hover>a {
+        background-color: inherit;
+    }
+    #euronNav li.full-euronmenu ul li:hover>a {
+        color: #000000;
+    }
+    #euronNav li.full-euronmenu ul li.euronmenu-title>a,
+    #euronNav li.full-euronmenu ul li.euronmenu-title:hover>a {
+        padding-left: 0;
+        color: #000000;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .euronpart .euron-left-menu{
+        margin-right: 70px;
+    }
+    .euronpart .euron-right-menu{
+        margin-left: 70px;
+    }
+
+    .homeservices.owl-carousel .owl-item {
+        float: left;
+        width: 33.33%!important;
+        margin-right: 0 !important;
+    }
+    .homeservices.owl-carousel .item {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 24px;
+        padding: 0 12px;
+    }
+    .homeservices.owl-carousel .owl-stage-outer {
+        height: 100%;
+    }
+    .homeservices.owl-carousel .owl-stage {
+        transform: none !important;
+        width: auto !important;
+        height: 100%;
+    }
+    .footermain .container {
+        padding-right: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+   
+
+
+    
+}
+@media only screen and (max-width: 991px) {
+    .main-title {text-align: center;}
+    .main-title h1, .main-title h2 {font-size: 30px;}
+    .inner-title h1, .inner-title h2 {font-size: 30px;}
+     /* Header css */
+    #header{
+        top: 0px;
+    }
+    #logo{
+        width: 110px;
+        top: -5px;
+    }
+    .euronarrow {
+        display: block;
+        top: 50%;
+        margin-top: -15px;
+    }
+    .euronnav ul {
+        left: 0;
+        margin-left: 0;
+    }
+    .euronnav ul li:first-child:after {
+        left: 20px;
+        margin-left: 0;
+    }
+    .euronnav>li>.euronarrow {
+        display: none;
+    }
+    .euronarrow:after {
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+    .euronarrow.active:after {
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+    .euronnav li ul li a {
+        padding: 10px 35px 10px 15px;
+    }
+    .euronnavigation {
+        float: right;
+        padding: 5px 0 0 0;
+        margin-top: 0;
+        position: relative;
+        top: -10px;
+    }
+    .euron-icon,
+    .euron-icon:focus {
+        display: block;
+    }
+    .euronpart {
+        display: none;
+    }
+    .euron-right-menu {
+        margin-top: -1px;
+    }
+    .euronpart {
+        width: 280px;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 36px;
+        z-index: 9;
+        background-color: var(--euron-secondary);
+    }
+    .euronnav {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        left: auto;
+        right: auto;
+        top: 0;
+    }
+    .euronnav>li {
+        width: 100%;
+        margin: 0;
+    }
+    .euronnav>li>a {
+        display: block;
+        padding: 10px 30px 10px 15px;
+        line-height: 20px;
+        color: #fff;
+    }
+    .euronnav>.parent>a {
+        padding-right: 30px;
+    }
+    .euronnav>li:hover>a {
+        background-color: var(--euron-primary);
+        color: #fff;
+    }
+    .euronnav>li>a::after,
+    .euronnav>li>a::before {
+        display: none;
+    }
+    .euronnav li:hover>ul {
+        display: none;
+    }
+    .euronnav ul {
+        display: none;
+        position: relative;
+        width: 100%;
+    }
+    .euronnav ul li a {
+        display: block;
+        padding: 10px 30px 10px 15px;
+        line-height: 20px;
+        color: #fff;
+    }
+    .euronnav>li>.euronarrow {
+        display: block;
+        top: 5px;
+        margin-top: 0;
+    }
+    .euronarrow {
+        display: block;
+        top: 0;
+        margin-top: 0;
+    }
+    .euronnav ul li>.euronarrow {
+        top: 5px;
+    }
+    .euronarrow:after {
+        -ms-transform: inherit;
+        -webkit-transform: inherit;
+        transform: inherit;
+    }
+    .euronarrow.active:after {
+        -ms-transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    .euronnav ul ul {
+        left: 0;
+    }
+    .euron-left-menu .euronnav ul ul {
+        left: 0;
+    }
+    #euronNav li.full-euronmenu>ul {
+        width: auto;
+    }
+    #container{
+        padding-top: 35px;
+    }
+    .hmbannr-text h2 {font-size: 36px;}
+    .hmbannr-text p {font-size: 18px;}
+    .hmbanner-section, .hmbnnr-img {height: 400px;}
+    .hmbannr-text p {margin-top: 10px;}
+    .hmbnnr-btn .button {font-size: 16px;padding: 12px 16px;margin-top: 20px;}
+
+    .hmadvantage-section {padding: 40px 0;}
+
+
+
+    .hmservice-block .main-title {position: relative;margin-bottom: 30px;width: 100%;padding-right: 0;top: auto;left: auto;}
+    .hmservicelist.owl-carousel .owl-stage{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+    .hmservicelist.owl-carousel .owl-stage:after{display:none;}
+    .hmservicelist.owl-carousel .item, .hmservicelist.owl-carousel .hmservice-box {height: 100%;}
+    .homeservices .owl-item:nth-child(1) .item, .homeservices .owl-item:nth-child(3) .item, .homeservices .owl-item:nth-child(4) .item {margin-top: 0;}
+    .hmserviceslider.hmservicelist {padding-top: 0;}
+    .hmservice-box {text-align: center;}
+    .owl-carousel .owl-item .hmservice-icon img {margin: 0 auto;}
+
+
+    .hmdentist-titlecol {margin-bottom: 30px;}
+    .homedentistlist .owl-item.active + .owl-item.active .item {margin-top: 30px;}
+    .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 0;}  
+    .homedentistlist .hmdentist-info {text-align: center;}
+
+
+    .hmclientlogolist.owl-carousel .owl-dots {text-align: center;}
+
+
+
+    .foothour-list li {width: 50%;}
+    .foothour-list li:nth-child(1) {order: 1;}
+    .foothour-list li:nth-child(2) {order: 3;}
+    .foothour-list li:nth-child(3) {order: 5;}
+    .foothour-list li:nth-child(4) {order: 2;}
+    .foothour-list li:nth-child(5) {order: 4;}
+    .foothour-list li:nth-child(6) {order: 6;}
+    .foothour-list li:nth-child(7) {order: 7;}
+    .footmap-col {margin-bottom: 40px;}
+    .footermap {height: 320px;}
+    .full-footermap .footermap {height: 320px;}
+    .footer-inner .container {padding-left: 0.75rem;}
+}
+@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 767px) {
+    .main-title h1, .main-title h2 {font-size: 26px;}
+    .main-title p {font-size: 18px;line-height: normal;}
+    .inner-title h1, .inner-title h2 {font-size: 26px;}
+    .inner-title p {font-size: 18px;line-height: normal;}
+    .innertop-desc h2, .innertop-desc h3 {font-size: 18px;}
+
+    .hmbanner-section {height: auto;}
+  .hmbnnr-textcol {order: 2;}
+  .hmbnnr-imgcol {order: 1;}
+  .hmbannr-text {max-width: 100%;text-align: center;}
+  .hmbannr-text h2 {font-size: 30px;}
+  .hmbannr-text p {font-size: 16px;line-height: normal;}
+  .hmbnnr-btn .button {display: none;}
+  .hmbnnr-img {height: 360px;}
+  .hmbanner-section .owl-nav {right: auto;width: 100%;}
+  .hmbanner-slider .owl-item .item {}
+  .hmbnnr-img {width: 100%;-webkit-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0);}
+  .hmbanner-slider [data-aos=fade-down], .hmbanner-slider [data-aos=fade-down].aos-animate {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+  .hmbanner-slider [data-aos=fade-up], .hmbanner-slider [data-aos=fade-up].aos-animate {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+  .hmadvantage-section {padding: 30px 0;}
+
+
+  .hmservice-section {padding: 30px 0;}
+  .hmservice-box {padding: 20px 12px;}
+
+
+  .hmdentist-section {padding: 30px 0;}
+  .homedentistlist .owl-item.active + .owl-item.active .item, .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 0;}
+  .hmdentist-info {text-align: center;}
+
+
+  .hmgallery-section {padding: 30px 0;}
+  .homegallery.hmgallerylist {margin: -12px -6px 0 -6px;}
+  .homegallery.hmgallerylist .item {margin-top: 12px;padding-left: 6px;padding-right: 6px;}
+
+
+  .hmpartner-section {padding: 30px 0;}
+
+
+  .footform-section {padding: 30px 0;}
+  .footform-box {padding: 30px 15px;}
+  .footform-box + .foothours-section {margin-top: 30px;}
+  .foothour-list li {font-size: 15px;}
+  .foottime {margin-left: -93px;padding-left: 95px;}
+  .footcontact-bar {padding: 20px 0;}
+  .footmenu-col {padding-top: 30px;padding-bottom: 30px;}
+  .footabtmenu-col + .footservmenu-col {margin-top: 30px;}
+  .footer-menu ul li, .footservmenu-col .footer-menu ul li {width: 33.33%;}
+  .socialmedia li a {font-size: 16px;width: 32px;height: 32px;line-height: 32px;}
+  .footmap-col {margin-bottom: 30px;}
+  .footcopyright {padding: 12px 0;}
+  .footcopyright p {font-size: 14px;}
+}
+@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 575px) {
+    .hmdentist-titlecol {margin-bottom: 30px;}
+    .hmdentist-titlecol .border-btn {margin-top: 20px;}
+    .hmdentist-box {max-width: 320px;margin: 0 auto;}
+
+
+
+    .homegallery.hmgallerylist{position: relative;
+        height: 636px;}
+    .homegallery.hmgallerylist .item {width: 50%;}
+    .hmgallerybox {max-width: 320px;margin: 0 auto;}
+    .homegallery .hmgallerybox img {height: 200px;object-fit: cover;object-position: center;}
+    .g6item{
+        position: absolute;
+        left: 50%;
+        top: 210px;
+    }
+
+
+
+    .hmclientlogolist.owl-carousel .owl-dots .owl-dot:first-child span {margin-left: 2px;}
+    .hmclientlogolist .clientlogo-box img {margin: 0 auto;}
+
+
+    .foothours .main-title {margin-bottom: 20px;}
+    .foothour-list {max-width: 250px;margin: 0 auto;}
+    .foothours .foothour-list li {width: 100%;order: inherit;padding: 0;}
+    .footinfo-box {max-width: 270px;margin: 0 auto;}
+}
+@media only screen and (max-width: 480px) {
+    .main-title h1, .main-title h2 {font-size: 24px;}
+    .innerbnnr-inner {padding: 30px 15px;}
+    .innerbnnr-inner h1 {font-size: 24px;}
+    .inner-title h1, .inner-title h2 {font-size: 24px;}
+
+    .footer-menu ul li, .footservmenu-col .footer-menu ul li {width: 50%;}
+  .full-footabtmenu.footabtmenu-col .footer-menu ul li {width: 50%;}
+  .full-footservmenu.footservmenu-col .footer-menu ul li {width: 50%;}
+}
+@media only screen and (max-width: 320px) {}
