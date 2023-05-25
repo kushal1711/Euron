@@ -331,6 +331,11 @@ ul{
 .owl-carousel .owl-dots .owl-dot span {background-color: #167039;}
 .owl-carousel .owl-nav button {background-color: #167039;color: #ffffff;}
 .owl-carousel .owl-nav button:hover {background-color: #f26d3f;color: #ffffff;}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
 /* End: Owl Carousel */
 /* header */
 #header{
