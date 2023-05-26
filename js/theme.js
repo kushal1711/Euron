@@ -42,7 +42,7 @@ $(document).ready(function () {
     });
 }
  // Index Banner Slider  
-    $(".hmbanner-slider").owlCarousel({
+    $(".euronbanner-slider").owlCarousel({
         autoplay: true,
         lazyLoad: false,
         loop: true,
@@ -70,7 +70,7 @@ $(document).ready(function () {
         }
     });
     // chosse slider
-    $(".hmadvantage-three").owlCarousel({
+    $(".whyeuronplus-slider").owlCarousel({
       autoplay: true,
       loop: true,
       margin: 24,
@@ -100,7 +100,7 @@ $(document).ready(function () {
       }
     });
     // service slider
-    $(".homeservices").owlCarousel({
+    $(".segments-slider").owlCarousel({
       autoplay: true,
       loop: true,
       margin: 24,
@@ -131,7 +131,7 @@ $(document).ready(function () {
       }
     });
     // team slider
-    $(".hmdentistslider").owlCarousel({
+    $(".euron-product-slider").owlCarousel({
       autoplay: true,
       loop: true,
       margin: 24,
@@ -207,7 +207,7 @@ $(document).ready(function () {
 
 
   // Partner Logo Slider - When 3 Items
-  $(".clientlogo-four").owlCarousel({
+  $(".euronclient-four").owlCarousel({
     autoplay: true,
     loop: true,
     margin: 24,

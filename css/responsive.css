@@ -5,72 +5,72 @@
     .gallrylist-section {padding: 40px 0 60px 0;}
     .gallerlist-row {margin-top: 60px;}
     .gallerlist-row .item:nth-child(even) {margin-top: -60px;}
-    .hmadvantage-section {padding: 60px 0;}
+    .whyeuron-section {padding: 60px 0;}
 
 
 
-    .hmdentist-section {padding: 60px 0;}
-    .homedentistlist .owl-item.active + .owl-item.active .item {margin-top: 60px;}
-    .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 30px;}
+    .product-section {padding: 60px 0;}
+    .euron-productlist .owl-item.active + .owl-item.active .item {margin-top: 60px;}
+    .euron-productlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 30px;}
 
 
-    .hmgallery-section {padding: 60px 0;}
+    .gallery-section {padding: 60px 0;}
 
 
-    .hmpartner-section {padding: 60px 0;}
+    .euronpartner-section {padding: 60px 0;}
 
 
 
-    .footform-section {padding: 60px 0;}
+    .euronfooter-section {padding: 60px 0;}
     .footform-box {padding: 60px 20px;}
-    .footform-box + .foothours-section {margin-top: 60px;}
-    .foothour-list li {font-size: 16px;}
-    .foottime {margin-left: -100px;padding-left: 102px;}
+    .footform-box + .euronfooter-hours {margin-top: 60px;}
+    .euronfooter-list li {font-size: 16px;}
+    .euronfooter-time {margin-left: -100px;padding-left: 102px;}
     .footinfo-box i {font-size: 20px;width: 42px;height: 42px;line-height: 42px;}
     .footinfo-text {width: calc(100% - 42px);}
     .footinfo-text {padding-left: 10px;}
-    .footmenu-col {padding-top: 60px;padding-bottom: 60px;}
-    .footer-inner .container {padding-left: calc((100% - 1116px) / 2);}
+    .euronfooter-menucol {padding-top: 60px;padding-bottom: 60px;}
+    .euronfooter-inner .container {padding-left: calc((100% - 1116px) / 2);}
     .socialmedia li a {font-size: 20px;width: 42px;height: 42px;line-height: 42px;}
 }
 @media only screen and (max-width: 1280px) {}
 @media only screen and (max-width: 1199px) {
-    .hmservice-section {padding: 40px 0;}
-    .homeservices .owl-item:nth-child(1) .item {margin-top: 80px;}
-    .homeservices .owl-item:nth-child(3) .item {margin-top: 40px;}
-    .homeservices .owl-item:nth-child(4) .item {margin-top: -40px;}
-    .hmservice-box {padding: 20px;}
-    .hmservice-box h3 {font-size: 20px;}
+    .segments-section {padding: 40px 0;}
+    .segments-slider .owl-item:nth-child(1) .item {margin-top: 80px;}
+    .segments-slider .owl-item:nth-child(3) .item {margin-top: 40px;}
+    .segments-slider .owl-item:nth-child(4) .item {margin-top: -40px;}
+    .segments-box {padding: 20px;}
+    .segments-box h3 {font-size: 20px;}
 
 
-    .hmdentist-section {padding: 40px 0;}
+    .product-section {padding: 40px 0;}
     .dentist-profile {font-size: 16px;}
-    .homedentistlist .owl-item.active + .owl-item.active .item {margin-top: 40px;}
-    .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 20px;}
+    .euron-productlist .owl-item.active + .owl-item.active .item {margin-top: 40px;}
+    .euron-productlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 20px;}
 
 
-    .hmgallery-section {padding: 40px 0;}
+    .gallery-section {padding: 40px 0;}
 
-    .hmpartner-section {padding: 40px 0;}
+    .euronpartner-section {padding: 40px 0;}
 
 
-    .footform-section {padding: 40px 0;}
+    .euronfooter-section {padding: 40px 0;}
   .footform-box {padding: 40px 20px;}
-  .footform-box + .foothours-section {margin-top: 40px;}
-  .foothour-list li {width: 33.33%;}
-  .foothour-list li:nth-child(1) {order: 1;}
-  .foothour-list li:nth-child(2) {order: 4;}
-  .foothour-list li:nth-child(3) {order: 2;}
-  .foothour-list li:nth-child(4) {order: 5;}
-  .foothour-list li:nth-child(5) {order: 3;}
-  .foothour-list li:nth-child(6) {order: 6;}
-  .foothour-list li:nth-child(7) {order: 7;}
+  .footform-box + .euronfooter-hours {margin-top: 40px;}
+  .euronfooter-list li {width: 33.33%;}
+  .euronfooter-list li:nth-child(1) {order: 1;}
+  .euronfooter-list li:nth-child(2) {order: 4;}
+  .euronfooter-list li:nth-child(3) {order: 2;}
+  .euronfooter-list li:nth-child(4) {order: 5;}
+  .euronfooter-list li:nth-child(5) {order: 3;}
+  .euronfooter-list li:nth-child(6) {order: 6;}
+  .euronfooter-list li:nth-child(7) {order: 7;}
   .footinfo-text {font-size: 16px;}
-  .footcontact-bar {padding: 30px 0;}
-  .footmenu-col {padding-top: 40px;padding-bottom: 40px;}
-  .footer-inner .container {padding-left: calc((100% - 936px) / 2);}
-  .footer-menu h4 {font-size: 20px;}
-  .footer-menu ul li {font-size: 15px;}
+  .euronfooter-contact {padding: 30px 0;}
+  .euronfooter-menucol {padding-top: 40px;padding-bottom: 40px;}
+  .euronfooter-inner .container {padding-left: calc((100% - 936px) / 2);}
+  .euronfooter-menutow h4 {font-size: 20px;}
+  .euronfooter-menutow ul li {font-size: 15px;}
   .footcopyright {padding: 20px 0;}
 }
 @media only screen and (max-width: 1169px) {}
@@ -149,26 +149,26 @@
         margin-left: 70px;
     }
 
-    .homeservices.owl-carousel .owl-item {
+    .segments-slider.owl-carousel .owl-item {
         float: left;
         width: 33.33%!important;
         margin-right: 0 !important;
     }
-    .homeservices.owl-carousel .item {
+    .segments-slider.owl-carousel .item {
         width: 100%;
         height: 100%;
         margin-bottom: 24px;
         padding: 0 12px;
     }
-    .homeservices.owl-carousel .owl-stage-outer {
+    .segments-slider.owl-carousel .owl-stage-outer {
         height: 100%;
     }
-    .homeservices.owl-carousel .owl-stage {
+    .segments-slider.owl-carousel .owl-stage {
         transform: none !important;
         width: auto !important;
         height: 100%;
     }
-    .footermain .container {
+    .euronfooter-main .container {
         padding-right: 0;
         width: 100%;
         max-width: 100%;
@@ -179,8 +179,8 @@
     
 }
 @media only screen and (max-width: 991px) {
-    .main-title {text-align: center;}
-    .main-title h1, .main-title h2 {font-size: 30px;}
+    .euron-title {text-align: center;}
+    .euron-title h1, .euron-title h2 {font-size: 30px;}
     .inner-title h1, .inner-title h2 {font-size: 30px;}
      /* Header css */
     #header{
@@ -242,7 +242,7 @@
         position: absolute;
         right: 0;
         top: 36px;
-        z-index: 9;
+        z-index: 999999;
         background-color: var(--euron-secondary);
     }
     .euronnav {
@@ -324,101 +324,100 @@
     #container{
         padding-top: 35px;
     }
-    .hmbannr-text h2 {font-size: 36px;}
-    .hmbannr-text p {font-size: 18px;}
-    .hmbanner-section, .hmbnnr-img {height: 400px;}
-    .hmbannr-text p {margin-top: 10px;}
-    .hmbnnr-btn .button {font-size: 16px;padding: 12px 16px;margin-top: 20px;}
+    .euronbanner-text h2 {font-size: 36px;}
+    .euronbanner-text p {font-size: 18px;}
+    .euronbanner-section, .hmbnnr-img {height: 400px;}
+    .euronbanner-text p {margin-top: 10px;}
+    .euronbanner-btn .button {font-size: 16px;padding: 12px 16px;margin-top: 20px;}
 
-    .hmadvantage-section {padding: 40px 0;}
-
-
-
-    .hmservice-block .main-title {position: relative;margin-bottom: 30px;width: 100%;padding-right: 0;top: auto;left: auto;}
-    .hmservicelist.owl-carousel .owl-stage{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
-    .hmservicelist.owl-carousel .owl-stage:after{display:none;}
-    .hmservicelist.owl-carousel .item, .hmservicelist.owl-carousel .hmservice-box {height: 100%;}
-    .homeservices .owl-item:nth-child(1) .item, .homeservices .owl-item:nth-child(3) .item, .homeservices .owl-item:nth-child(4) .item {margin-top: 0;}
-    .hmserviceslider.hmservicelist {padding-top: 0;}
-    .hmservice-box {text-align: center;}
-    .owl-carousel .owl-item .hmservice-icon img {margin: 0 auto;}
-
-
-    .hmdentist-titlecol {margin-bottom: 30px;}
-    .homedentistlist .owl-item.active + .owl-item.active .item {margin-top: 30px;}
-    .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 0;}  
-    .homedentistlist .hmdentist-info {text-align: center;}
-
-
-    .hmclientlogolist.owl-carousel .owl-dots {text-align: center;}
+    .whyeuron-section {padding: 40px 0;}
 
 
 
-    .foothour-list li {width: 50%;}
-    .foothour-list li:nth-child(1) {order: 1;}
-    .foothour-list li:nth-child(2) {order: 3;}
-    .foothour-list li:nth-child(3) {order: 5;}
-    .foothour-list li:nth-child(4) {order: 2;}
-    .foothour-list li:nth-child(5) {order: 4;}
-    .foothour-list li:nth-child(6) {order: 6;}
-    .foothour-list li:nth-child(7) {order: 7;}
+    .segments-block .euron-title {position: relative;margin-bottom: 30px;width: 100%;padding-right: 0;top: auto;left: auto;}
+    .segments-list.owl-carousel .owl-stage{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+    .segments-list.owl-carousel .owl-stage:after{display:none;}
+    .segments-list.owl-carousel .item, .segments-list.owl-carousel .segments-box {height: 100%;}
+    .segments-slider .owl-item:nth-child(1) .item, .segments-slider .owl-item:nth-child(3) .item, .segments-slider .owl-item:nth-child(4) .item {margin-top: 0;}
+    .hmserviceslider.segments-list {padding-top: 0;}
+    .segments-box {text-align: center;}
+    .owl-carousel .owl-item .segments-icon img {margin: 0 auto;}
+
+
+    .product-title {margin-bottom: 30px;}
+    .euron-productlist .owl-item.active + .owl-item.active .item {margin-top: 30px;}
+    .euron-productlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 0;}  
+    .euron-productlist .euron-product-info {text-align: center;}
+
+
+    .euronclient-logo.owl-carousel .owl-dots {text-align: center;}
+
+
+
+    .euronfooter-list li {width: 50%;}
+    .euronfooter-list li:nth-child(1) {order: 1;}
+    .euronfooter-list li:nth-child(2) {order: 3;}
+    .euronfooter-list li:nth-child(3) {order: 5;}
+    .euronfooter-list li:nth-child(4) {order: 2;}
+    .euronfooter-list li:nth-child(5) {order: 4;}
+    .euronfooter-list li:nth-child(6) {order: 6;}
+    .euronfooter-list li:nth-child(7) {order: 7;}
     .footmap-col {margin-bottom: 40px;}
-    .footermap {height: 320px;}
-    .full-footermap .footermap {height: 320px;}
-    .footer-inner .container {padding-left: 0.75rem;}
+    .euronfooter-footermap {height: 320px;}
+    .full-euronfooter-footermap .euronfooter-footermap {height: 320px;}
+    .euronfooter-inner .container {padding-left: 0.75rem;}
 }
 @media only screen and (max-width: 959px) {}
 @media only screen and (max-width: 800px) {}
 @media only screen and (max-width: 768px) {}
 @media only screen and (max-width: 767px) {
-    .main-title h1, .main-title h2 {font-size: 26px;}
-    .main-title p {font-size: 18px;line-height: normal;}
+    .euron-title h1, .euron-title h2 {font-size: 26px;}
+    .euron-title p {font-size: 18px;line-height: normal;}
     .inner-title h1, .inner-title h2 {font-size: 26px;}
     .inner-title p {font-size: 18px;line-height: normal;}
     .innertop-desc h2, .innertop-desc h3 {font-size: 18px;}
 
-    .hmbanner-section {height: auto;}
-  .hmbnnr-textcol {order: 2;}
+    .euronbanner-section {height: auto;}
+  .euronbanner-textcol {order: 2;}
   .hmbnnr-imgcol {order: 1;}
-  .hmbannr-text {max-width: 100%;text-align: center;}
-  .hmbannr-text h2 {font-size: 30px;}
-  .hmbannr-text p {font-size: 16px;line-height: normal;}
-  .hmbnnr-btn .button {display: none;}
+  .euronbanner-text {max-width: 100%;text-align: center;}
+  .euronbanner-text h2 {font-size: 30px;}
+  .euronbanner-text p {font-size: 16px;line-height: normal;}
+  .euronbanner-btn .button {display: none;}
   .hmbnnr-img {height: 360px;}
-  .hmbanner-section .owl-nav {right: auto;width: 100%;}
-  .hmbanner-slider .owl-item .item {}
+  .euronbanner-section .owl-nav {right: auto;width: 100%;}
   .hmbnnr-img {width: 100%;-webkit-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0);}
-  .hmbanner-slider [data-aos=fade-down], .hmbanner-slider [data-aos=fade-down].aos-animate {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
-  .hmbanner-slider [data-aos=fade-up], .hmbanner-slider [data-aos=fade-up].aos-animate {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
-  .hmadvantage-section {padding: 30px 0;}
+  .euronbanner-slider [data-aos=fade-down], .euronbanner-slider [data-aos=fade-down].aos-animate {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+  .euronbanner-slider [data-aos=fade-up], .euronbanner-slider [data-aos=fade-up].aos-animate {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+  .whyeuron-section {padding: 30px 0;}
 
 
-  .hmservice-section {padding: 30px 0;}
-  .hmservice-box {padding: 20px 12px;}
+  .segments-section {padding: 30px 0;}
+  .segments-box {padding: 20px 12px;}
 
 
-  .hmdentist-section {padding: 30px 0;}
-  .homedentistlist .owl-item.active + .owl-item.active .item, .homedentistlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 0;}
-  .hmdentist-info {text-align: center;}
+  .product-section {padding: 30px 0;}
+  .euron-productlist .owl-item.active + .owl-item.active .item, .euron-productlist .owl-item.active + .owl-item.active + .owl-item.active .item {margin-top: 0;}
+  .euron-product-info {text-align: center;}
 
 
-  .hmgallery-section {padding: 30px 0;}
-  .homegallery.hmgallerylist {margin: -12px -6px 0 -6px;}
-  .homegallery.hmgallerylist .item {margin-top: 12px;padding-left: 6px;padding-right: 6px;}
+  .gallery-section {padding: 30px 0;}
+  .eurongallery.gallery-list {margin: -12px -6px 0 -6px;}
+  .eurongallery.gallery-list .item {margin-top: 12px;padding-left: 6px;padding-right: 6px;}
 
 
-  .hmpartner-section {padding: 30px 0;}
+  .euronpartner-section {padding: 30px 0;}
 
 
-  .footform-section {padding: 30px 0;}
+  .euronfooter-section {padding: 30px 0;}
   .footform-box {padding: 30px 15px;}
-  .footform-box + .foothours-section {margin-top: 30px;}
-  .foothour-list li {font-size: 15px;}
-  .foottime {margin-left: -93px;padding-left: 95px;}
-  .footcontact-bar {padding: 20px 0;}
-  .footmenu-col {padding-top: 30px;padding-bottom: 30px;}
-  .footabtmenu-col + .footservmenu-col {margin-top: 30px;}
-  .footer-menu ul li, .footservmenu-col .footer-menu ul li {width: 33.33%;}
+  .footform-box + .euronfooter-hours {margin-top: 30px;}
+  .euronfooter-list li {font-size: 15px;}
+  .euronfooter-time {margin-left: -93px;padding-left: 95px;}
+  .euronfooter-contact {padding: 20px 0;}
+  .euronfooter-menucol {padding-top: 30px;padding-bottom: 30px;}
+  .euronfooter-menuaboutcol + .euronfooter-menuserve {margin-top: 30px;}
+  .euronfooter-menutow ul li, .euronfooter-menuserve .euronfooter-menutow ul li {width: 33.33%;}
   .socialmedia li a {font-size: 16px;width: 32px;height: 32px;line-height: 32px;}
   .footmap-col {margin-bottom: 30px;}
   .footcopyright {padding: 12px 0;}
@@ -426,17 +425,17 @@
 }
 @media only screen and (max-width: 640px) {}
 @media only screen and (max-width: 575px) {
-    .hmdentist-titlecol {margin-bottom: 30px;}
-    .hmdentist-titlecol .border-btn {margin-top: 20px;}
-    .hmdentist-box {max-width: 320px;margin: 0 auto;}
+    .product-title {margin-bottom: 30px;}
+    .product-title .border-btn {margin-top: 20px;}
+    .euron-product-box {max-width: 320px;margin: 0 auto;}
 
 
 
-    .homegallery.hmgallerylist{position: relative;
+    .eurongallery.gallery-list{position: relative;
         height: 636px;}
-    .homegallery.hmgallerylist .item {width: 50%;}
-    .hmgallerybox {max-width: 320px;margin: 0 auto;}
-    .homegallery .hmgallerybox img {height: 200px;object-fit: cover;object-position: center;}
+    .eurongallery.gallery-list .item {width: 50%;}
+    .eurongallery-box {max-width: 320px;margin: 0 auto;}
+    .eurongallery .eurongallery-box img {height: 200px;object-fit: cover;object-position: center;}
     .g6item{
         position: absolute;
         left: 50%;
@@ -445,23 +444,23 @@
 
 
 
-    .hmclientlogolist.owl-carousel .owl-dots .owl-dot:first-child span {margin-left: 2px;}
-    .hmclientlogolist .clientlogo-box img {margin: 0 auto;}
+    .euronclient-logo.owl-carousel .owl-dots .owl-dot:first-child span {margin-left: 2px;}
+    .euronclient-logo .euronclient-box img {margin: 0 auto;}
 
 
-    .foothours .main-title {margin-bottom: 20px;}
-    .foothour-list {max-width: 250px;margin: 0 auto;}
-    .foothours .foothour-list li {width: 100%;order: inherit;padding: 0;}
+    .euronfooter-hours-box .euron-title {margin-bottom: 20px;}
+    .euronfooter-list {max-width: 250px;margin: 0 auto;}
+    .euronfooter-hours-box .euronfooter-list li {width: 100%;order: inherit;padding: 0;}
     .footinfo-box {max-width: 270px;margin: 0 auto;}
 }
 @media only screen and (max-width: 480px) {
-    .main-title h1, .main-title h2 {font-size: 24px;}
+    .euron-title h1, .euron-title h2 {font-size: 24px;}
     .innerbnnr-inner {padding: 30px 15px;}
     .innerbnnr-inner h1 {font-size: 24px;}
     .inner-title h1, .inner-title h2 {font-size: 24px;}
 
-    .footer-menu ul li, .footservmenu-col .footer-menu ul li {width: 50%;}
-  .full-footabtmenu.footabtmenu-col .footer-menu ul li {width: 50%;}
-  .full-footservmenu.footservmenu-col .footer-menu ul li {width: 50%;}
+    .euronfooter-menutow ul li, .euronfooter-menuserve .euronfooter-menutow ul li {width: 50%;}
+  .full-footabtmenu.euronfooter-menuaboutcol .euronfooter-menutow ul li {width: 50%;}
+  .full-footservmenu.euronfooter-menuserve .euronfooter-menutow ul li {width: 50%;}
 }
 @media only screen and (max-width: 320px) {}
